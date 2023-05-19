@@ -14,6 +14,7 @@ public class CatService {
     private static final Logger logger = LoggerFactory.getLogger(CatService.class);
     public CatService(CatRepository repository) {
         this.repository = repository;
+
     }
     /**
      * Method to get a cat by id.
